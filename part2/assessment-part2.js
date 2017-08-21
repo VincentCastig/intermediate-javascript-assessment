@@ -37,15 +37,6 @@
 var firstUser = 'don\'t touch this string!';
 var thirdUser = 'don\'t touch this string, either!';
 
-function noWeakLink() {
-
-  return $http({
-    method: 'GET',
-    url: '/api/users'
-  })
-  // CODE HERE...
-
-}
 
 
 
@@ -76,7 +67,6 @@ function large() {
 // CODE HERE...
 
 
-
 // *************
 // * PROBLEM 3 *
 // *************
@@ -88,6 +78,8 @@ function large() {
 // and return the bound function.
 
 // CODE HERE...
+
+
 
 
 
@@ -103,7 +95,6 @@ function large() {
 // The closure function will return the combined value of assets and liabilities.
 
 // CODE HERE...
-
 
 
 // *************

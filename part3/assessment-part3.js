@@ -40,15 +40,17 @@
 // $q (Custom promise object).
 // NOTE: $q is an injected library, that works like angular's $q object.
 // promiseMe will be invoked by a test and the test will expect a promise back.
-// In your function, create a custom promise, then create a timeout with a duration of 20 ms.
+// In your function, create a custom promise, then create a timeout with a duration
+//of 20 ms.
 // The timeout function should update the variable foo (seen below) to equal 'bar'.
-// After the timeout is completed, the promise should be resolved with the new updated foo variable.
-// NOTE: Manually invoking your function here will alter the 'foo' variable before tests run, causing them to fail.
+// After the timeout is completed, the promise should be resolved with the new updated
+//foo variable.
+// NOTE: Manually invoking your function here will alter the 'foo' variable before
+// tests run, causing them to fail.
 
 var foo;
 
 // CODE HERE...
-
 
 
 // *************
